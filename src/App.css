@@ -5,8 +5,9 @@
   flex-basis: 60%;
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: #f9f9f9;
 }
+sa
 .homestays {
   display: flex;
   flex-wrap: wrap;

@@ -3,17 +3,17 @@ import './homestay.css';
 
 class Homestay extends Component {
   render() {
-    const judul = `${this.props.homestay.nama} - Rp. ${this.props.homestay.harga} rb`
+    const title = `${this.props.homestay.name} - Rp. ${this.props.homestay.price} rb`
     const style = {
-      backgroundImage: `url('${this.props.homestay.fotoUrl}')`
+      backgroundImage: `url('${this.props.homestay.imageUrl}')`
     };
 
-    return {
+    return (
       <div className="homestay">
         <div className="homestay-photo" style={style}></div>
-        <div className="homestay-title">{judul}</div>
+        <div className="homestay-title">{title}</div>
       </div>
-    }
+    )
   }
 }
 
